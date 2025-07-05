@@ -1,5 +1,5 @@
-****🧠 Real-Time Face Detection and Classification Pipeline****
-A robust deep learning-based system that seamlessly combines object detection, image classification, and multiprocessing for efficient real-time inference. Built using Python, OpenCV, TensorFlow/Keras, and optimized with TensorFlow Lite quantization.
+********🧠 Real-Time Face Detection and Classification Pipeline********
+A robust deep learning-based system that seamlessly combines **object detection**, **image classification**, and **multiprocessing** for efficient real-time inference. Built using **Python, OpenCV, TensorFlow/Keras**, and optimized with  .tflite model quantization.
 
 
 ****📌 Project Overview****
