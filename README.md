@@ -13,23 +13,29 @@ This project showcases an integrated modular pipeline capable of real-time face 
 **📁 Instance Attributes**
 
 objdet_path:
+
 Path to the object detection model file (e.g., haarcascade_frontalface.xml).
 
 imgcls_path:
+
 Path to the image classification model file (e.g., .h5, .keras, or .tflite).
 
 **⚙️ Core Methods**
 
 load_objectdetection_model():
+
 Loads the object detection model from the specified objdet_path.
 
 load_imageclassification_model():
+
 Loads the image classification model from the specified imgcls_path.
 
 load_database():
+
 Loads a JSON-based database (db.json) to map predicted class indices to human-readable labels.
 
 process_video(source_path, objectdetmodel, imgclassmodel, db):
+
 Processes video frame-by-frame:
 
 Detects faces using object detection.
@@ -47,6 +53,7 @@ Grayscale conversion
 FPS limiting (15 FPS)
 
 run(video_path, model1, model2, database):
+
 Wrapper function to execute process_video() with all required components.
 
 **🔄 Version-wise Development**
