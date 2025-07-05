@@ -8,8 +8,9 @@ A robust deep learning-based system that seamlessly combines **object detection*
 This project showcases an integrated modular pipeline capable of real-time face detection and classification on video streams. It leverages frame optimization techniques, dynamic label mapping, and parallel processing to achieve fast and scalable predictions.
 
 
-**🔍 Key Components
-📁 Instance Attributes**
+**🔍 Key Components**
+
+**📁 Instance Attributes**
 
 objdet_path:
 Path to the object detection model file (e.g., haarcascade_frontalface.xml).
